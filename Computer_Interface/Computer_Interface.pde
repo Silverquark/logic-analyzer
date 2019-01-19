@@ -902,8 +902,8 @@ void mouseWheel(MouseEvent event) {
   handleX-=wheel*50;
   if (handleX<xEdge) handleX = xEdge;
   if (handleX>width-handleW) handleX = width-handleW;
-  print(wheel); print(" - ");
-  println(handleX);
+  //print(wheel); print(" - ");
+  //println(handleX);
   dataComplete=true;
 }
 
